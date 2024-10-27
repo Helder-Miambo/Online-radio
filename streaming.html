@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Rádio Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente de fundo */
+            color: #fff; /* Texto branco para melhor contraste */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 120px;
+            margin: 10px 0;
+            border: none; /* Remover borda */
+        }
+        .ad-banner {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+        @media (max-width: 600px) {
+            iframe {
+                height: 100px;
+            }
+        }
+        h2 {
+            margin: 20px 0;
+        }
+        .video-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .video-container iframe {
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Radio</h1>
+    </header>
+    <main>
+        <h2>International & National Music</h2>
+        <iframe src="https://tunein.com/embed/player/s7288/" scrolling="no"></iframe>
+        <p>
+        <iframe src="https://www.rm.co.mz/radio/radio/" scrolling="yes"></iframe> 
+        
+        
+        
+        <div class="ad-banner">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:block; text-align:center;"
+                 data-ad-client="ca-pub-XXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="rectangle"
+                 data-ad-layout-key="-g1+2f+3g-4h">
+            </ins>
+            
+        </div>
+
+       
+            <p>Estamos ao vivo! Sintonize para a melhor música e entretenimento.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Radio</p>
+        <p>by WrOnG OvEr</p>
+    </footer>
+</body>
+</html>
+
+
